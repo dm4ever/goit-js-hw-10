@@ -23,3 +23,55 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.timer {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 32px;
+
+}
+
+.value {
+  font-size: 42px;
+}
+
+.label {
+  text-transform: uppercase;
+}
+
+.flatpickr-input {
+  width: 224px;
+  height: 23px;
+  font-size: 18px;
+}
+
+button {
+  height: 28px;
+  width: 54px;
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+fieldset {
+  width: 210px;
+}
+
+.btn {
+  width: 238px;
+  margin-top: 12px;
+}
+
+.delay {
+  width: 150px;
+}
